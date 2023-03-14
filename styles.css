@@ -1,0 +1,76 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+    padding:30px 0px;
+    background:#88B9D9;
+    color:#2E5984;
+    width:auto;
+}
+
+.footItem{
+    color:#2E5984;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.judulFooter{
+    font-weight:bold;
+    color:#2E5984;
+}
+
+a{
+    text-decoration:none;
+}
+
+footer p{
+    font-size:18px;
+}
+
+.foot1, .foot2, .foot3, .foot4{
+    float:left;
+    margin-right:100px;
+}
+
+.foot1 li,.foot2 li,.foot3 li,.foot4 li{
+    display:block;
+    list-style-type: none;
+    padding-left:10px;
+    font-size:15px;
+    color:#2E5984;
+}
+
+.logoFooter{
+    display:inline-block;
+    text-align: center;
+}
+
+.gambarFooter{
+    height: 30px;
+}
+
+.logoFooter p{
+    font-size:15px;
+}
+
+.logoFooter .follow{
+    margin-top:8px;
+    font-size:13px;
+}
+
+.logoFooter a{
+    padding:0px 4px;
+    text-decoration:none;
+    color:#1E3F66;
+}

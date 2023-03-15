@@ -1,0 +1,23 @@
+@media (max-width:1000px) {
+    .footList{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footItem{
+        margin-right:50px;
+    }
+
+    .footItem:last-child{
+        margin-right:0px;
+    }
+
+    .wrapperFooter{
+        padding-bottom:20px;
+    }
+
+    .follow, .sosmed{
+        display:none;
+    }
+}

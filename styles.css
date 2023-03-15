@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 footer{
-    padding:30px 0px;
+    padding:30px 20px;
     background:#88B9D9;
     color:#2E5984;
     width:auto;
@@ -39,11 +39,15 @@ footer p{
 
 .footItem{
     float:left;
-    margin-right:50px;
+    margin-right:40px;
+}
+
+.wrapperFooter{
+    width: auto;
+    align-content: center;
 }
 
 .footItem li{
-    display:block;
     list-style-type: none;
     padding-left:10px;
     font-size:15px;
@@ -55,8 +59,8 @@ footer p{
 }
 
 .logoFooter{
-    display:inline-block;
     text-align: center;
+    width: 25%;
 }
 
 .gambarFooter{

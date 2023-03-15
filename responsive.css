@@ -15,6 +15,11 @@
 
     .wrapperFooter{
         padding-bottom:20px;
+        width: auto;
+    }
+
+    .logoFooter{
+        width: auto;
     }
 
     .follow, .sosmed{

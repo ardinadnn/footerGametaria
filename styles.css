@@ -12,8 +12,7 @@ footer{
     width:auto;
 }
 
-.footItem{
-    color:#2E5984;
+.footList{
     width:auto;
     display: flex;
     justify-content: center;
@@ -27,7 +26,7 @@ footer{
 
 .judulFooter{
     font-weight:bold;
-    color:#2E5984;
+    color:#1E3F66;
 }
 
 a{
@@ -38,17 +37,21 @@ footer p{
     font-size:18px;
 }
 
-.foot1, .foot2, .foot3, .foot4{
+.footItem{
     float:left;
     margin-right:100px;
 }
 
-.foot1 li,.foot2 li,.foot3 li,.foot4 li{
+.footItem li{
     display:block;
     list-style-type: none;
     padding-left:10px;
     font-size:15px;
     color:#2E5984;
+}
+
+.footItem li:hover{
+    text-decoration: underline;
 }
 
 .logoFooter{
@@ -69,8 +72,12 @@ footer p{
     font-size:13px;
 }
 
-.logoFooter a{
+.logoFooter .fa{
     padding:0px 4px;
     text-decoration:none;
+    color:#2E5984;
+}
+
+.logoFooter .fa:hover{
     color:#1E3F66;
 }
